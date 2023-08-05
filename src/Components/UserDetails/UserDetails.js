@@ -26,6 +26,7 @@ function UserDetails() {
         { img: 'Icons/Rectangle 31 (6).svg', name: 'Shailesh Bind' },
         { img: 'Icons/Rectangle 31 (4).svg', name: 'Akshat naik' }
       ]);    
+      console.log(setUsers,"setUsers");
   return (
     <div>
           <Box sx={{ flexGrow: 1 }}>
