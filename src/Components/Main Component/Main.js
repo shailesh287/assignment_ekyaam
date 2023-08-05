@@ -3,8 +3,6 @@ import SideNavBar from '../Navigation/SideNavBar'
 import './main.css'
 import AddUser from '../Add User/AddUser';
 import { Box, Grid } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper'
 import UserDetails from '../UserDetails/UserDetails';
 import SessionInfo from '../ShceduleSession/SessionInfo';
 
