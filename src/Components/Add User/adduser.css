@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+}
+.create_btn {
+    margin-right: 15px;
+    color: #CC627B;
+    font-size:14px;
+     border:2px solid  #CC627B;
+     border-radius: 10px;
+     width:165px;
+     padding: 6px 16px;
+     background-color: transparent;
+     cursor: pointer;
+     height: 100%;
+
+}
+.add_btn {
+    margin-right: 15px;
+    color: #ffff;
+    font-size:14px;
+     border:none;
+     border-radius: 10px;
+     width:165px;
+     padding: 6px 16px;
+     background-image: linear-gradient(to right, #bcb1f3, #f6b8af) ;
+     cursor: pointer;
+     box-shadow: 1px black;
+     height: 100%;
+}
+
+  @media (max-width: 660px) {
+    .main{
+        display: block;
+        height: 46px;
+    }
+  }
+
+
+
