@@ -34,7 +34,7 @@ function UserDetails() {
           <Item style={{height:'14vh', backgroundColor:'rgba(255, 255, 255, 0.5)', borderRadius:'15px'}}>
             <div className='card'>
                 <div>
-                <img src='Icons/noun-pending-clipboard-4492385 1.svg'/>
+                <img src='Icons/noun-pending-clipboard-4492385 1.svg' alt='img'/>
                 </div>
                 <div className='text'   >
                 <div style={{fontSize:'14px'}}>Pending Task</div>
@@ -47,7 +47,7 @@ function UserDetails() {
           <Item style={{height:'14vh', backgroundColor:'rgba(255, 255, 255, 0.5)', borderRadius:'15px'}}>
             <div className='card'>
                 <div>
-                <img src='Icons/noun-prescription-3102451 1.svg'/>
+                <img src='Icons/noun-prescription-3102451 1.svg' alt='img'/>
                 </div>
                 <div className='text2'   >
                 <div style={{fontSize:'14px'}}>Prescription Due</div>
@@ -60,7 +60,7 @@ function UserDetails() {
           <Item style={{height:'14vh',backgroundColor:'rgba(255, 255, 255, 0.5)', borderRadius:'15px'}}>
             <div className='card'>
                 <div>
-                <img src='Icons/Patient.svg'/>
+                <img src='Icons/Patient.svg' alt='img'/>
                 </div>
                 <div className='text2'   >
                 <div style={{fontSize:'14px'}}>Inactive Patients</div>
@@ -73,7 +73,7 @@ function UserDetails() {
           <Item style={{height:'14vh', backgroundColor:'rgba(255, 255, 255, 0.5)', borderRadius:'15px'}}>
             <div className='card'>
                 <div>
-                <img src='Icons/Patient.svg'/>
+                <img src='Icons/Patient.svg' alt='img'/>
                 </div>
                 <div className='text2'   >
                 <div style={{fontSize:'14px'}}>Update Records</div>
@@ -87,7 +87,7 @@ function UserDetails() {
             <div className='therapist_cont'>
                <div className='t_header'>
                 <div className='t_info'>
-                <img src='Icons/Health.svg'/>
+                <img src='Icons/Health.svg' alt='img'/>
                 <div style={{fontSize:'16px', fontWeight:'bold', width:"100%", marginLeft:'10px'}} >Available Therapist</div>
                 </div>
                
@@ -97,7 +97,7 @@ function UserDetails() {
                  <Grid container spacing={1}>
                 {users.map((user, index) => (
                     <Grid  item  xs={12} sm={6} md={3} className='user-container' key={index}>
-                    <img src={user.img} />
+                    <img src={user.img}  alt='img'/>
                     <p>{user.name}</p>
                     </Grid>
                 ))}
@@ -114,7 +114,7 @@ function UserDetails() {
                
             <IconButton className="asdfg"size="small" aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={4} color="error">
-                <img style={{width:"30px", height:'30px'}}src='Icons/Communication.svg'/>
+                <img style={{width:"30px", height:'30px'}}src='Icons/Communication.svg' alt='img'/>
               </Badge>
             </IconButton>
             <div style={{fontSize:'16px', fontWeight:'bold', width:"100%"}} >Unread Chats</div>
@@ -139,7 +139,7 @@ function UserDetails() {
                 <div className='card2'>
                 <div className='p_info'>
                     <div>
-                    <img src='Icons/Rectangle 28.svg'/>
+                    <img src='Icons/Rectangle 28.svg' alt='img'/>
                     </div>
                     <div className='p_name'   >
                     <div style={{fontSize:'14px',fontWeight:'bold'}}>Sahal Nadolia</div>
@@ -147,13 +147,13 @@ function UserDetails() {
                     </div>
                     </div>
                     <div>
-                    <img src='Icons/SideArrow.svg'></img>
+                    <img src='Icons/SideArrow.svg' alt='img'></img>
                     </div>
                 </div>
             <div className='card2'>
             <div className='p_info'>
                 <div>
-                <img src='Icons/Rectangle 28 (1).svg'/>
+                <img src='Icons/Rectangle 28 (1).svg' alt='img'/>
                 </div>
                 <div className='p_name'   >
                 <div style={{fontSize:'14px',fontWeight:'bold'}}>Abhishek Kumar</div>
@@ -161,13 +161,13 @@ function UserDetails() {
                 </div>
                 </div>
                 <div>
-                <img src='Icons/SideArrow.svg'></img>
+                <img src='Icons/SideArrow.svg' alt='img'></img>
                  </div>
             </div>
             <div className='card2'>
             <div className='p_info'>
                 <div>
-                <img src='Icons/Rectangle 28 (2).svg'/>
+                <img src='Icons/Rectangle 28 (2).svg' alt='img'/>
                 </div>
                 <div className='p_name'   >
                 <div style={{fontSize:'14px',fontWeight:'bold'}}>Akhat Parsai</div>
@@ -175,13 +175,13 @@ function UserDetails() {
                 </div>
                 </div>
                 <div>
-                <img src='Icons/SideArrow.svg'></img>
+                <img src='Icons/SideArrow.svg' alt='img'></img>
                  </div>
             </div>
             <div className='card2'>
                 <div className='p_info'>
                 <div>
-                <img src='Icons/Rectangle 28 (3).svg'/>
+                <img src='Icons/Rectangle 28 (3).svg' alt='img'/>
                 </div>
                 <div className='p_name'>
                 <div style={{fontSize:'14px',fontWeight:'bold'}}>Vishwanath Sawant</div>
@@ -190,7 +190,7 @@ function UserDetails() {
             
                 </div>
                 <div>
-                <img src='Icons/SideArrow.svg'></img>
+                <img src='Icons/SideArrow.svg' alt='img'></img>
                  </div>
             </div>
                 </div>

@@ -52,7 +52,7 @@ function Main() {
         <>
         <div className="top_navbar">
             <div className="logo">
-                <img src="Icons\logo.png"></img>
+                <img src="Icons\logo.png" alt='img'></img>
             </div>
             <div className='rightCon'>
             <div className='search'>
@@ -70,7 +70,7 @@ function Main() {
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={4} color="error">
-                <img src='Icons/Communication.svg'/>
+                <img src='Icons/Communication.svg' alt='img'/>
               </Badge>
             </IconButton>
             <IconButton
@@ -90,9 +90,9 @@ function Main() {
               color="inherit"
             >
               <div className='profile_pic'>
-                <img src='Icons/Rectangle 4.svg'/>
+                <img src='Icons/Rectangle 4.svg' alt='img'/>
               </div>
-              <img src='Icons/Arrow.svg'/>
+              <img src='Icons/Arrow.svg' alt='img'/>
             </IconButton>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>

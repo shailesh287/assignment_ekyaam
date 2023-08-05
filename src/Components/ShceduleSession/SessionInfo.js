@@ -20,7 +20,7 @@ function SessionInfo() {
           <Item style={{height:'100%', backgroundColor:'rgba(255, 255, 255, 0.5)', borderRadius:'15px'}}>
           <div className='header'>
             <div className='t_info'>
-            <img src='Icons/noun-time-period-5100841 1.svg'/>
+            <img src='Icons/noun-time-period-5100841 1.svg' alt='img'/>
             <div style={{fontSize:'16px', fontWeight:'bold', width:"100%", marginLeft:'10px'}} >Shceduled Session</div>
             </div>
             
@@ -37,9 +37,9 @@ function SessionInfo() {
             </div>
         </div>
         <div className='calender'>
-        <img src='Icons/LeftArrow.svg'/>
-        <img style={{width:'90%'}} src='Icons/calander_group.svg'/>
-        <img src='Icons/SideArrow.svg'/>
+        <img src='Icons/LeftArrow.svg' alt='img'/>
+        <img style={{width:'90%'}} src='Icons/calander_group.svg' alt='img'/>
+        <img src='Icons/SideArrow.svg' alt='img'/>
         </div>
 
         <div className='current_session'>
@@ -71,7 +71,7 @@ function SessionInfo() {
                 </div>
                 </div>
                 <div style={{display:'flex',alignItems:'center'}}>
-                    <img src='Icons/Arrow.svg'/>
+                    <img src='Icons/Arrow.svg' alt='img'/>
                 </div>
              
             </div>
@@ -104,7 +104,7 @@ function SessionInfo() {
                 </div>
                 </div>
                 <div style={{display:'flex',alignItems:'center'}}>
-                    <img src='Icons/Arrow.svg'/>
+                    <img src='Icons/Arrow.svg' alt='img'/>
                 </div>
              
             </div>
@@ -133,7 +133,7 @@ function SessionInfo() {
                 </div>
                 </div>
                 <div style={{display:'flex',alignItems:'center'}}>
-                    <img src='Icons/Arrow.svg'/>
+                    <img src='Icons/Arrow.svg' alt='img'/>
                 </div>
              
             </div>
@@ -162,7 +162,7 @@ function SessionInfo() {
                 </div>
                 </div>
                 <div style={{display:'flex',alignItems:'center'}}>
-                    <img src='Icons/Arrow.svg'/>
+                    <img src='Icons/Arrow.svg' alt='img'/>
                 </div>
              
             </div>
